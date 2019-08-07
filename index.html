@@ -361,7 +361,7 @@
         
   
     <h1 itemprop="name">
-      <a  class="article-title" href="/2018/08/02/我简直是帅爆了/">我简直是帅爆了</a>
+      <a  class="article-title" href="/2018/08/02/我简直是帅爆了/">上线后log问题</a>
     </h1>
   
 
@@ -373,7 +373,7 @@
       
           
         <h2 id="哈哈哈"><a href="#哈哈哈" class="headerlink" title="哈哈哈"></a>哈哈哈</h2><h3 id="判断是否是开发者模式"><a href="#判断是否是开发者模式" class="headerlink" title="判断是否是开发者模式"></a>判断是否是开发者模式</h3><p> boolean enableAdb = (Settings.Secure.getInt(getContentResolver(), Settings.Secure.ADB_ENABLED, 0) &gt; 0);<br>if(enableAdb){<br>    Toast.makeText(this, “enable”, 1).show();<br>}else {<br>    Toast.makeText(this, “not enable”, 1).show();<br>}</p>
-<h3 id="判断是否是release版本"><a href="#判断是否是release版本" class="headerlink" title="判断是否是release版本"></a>判断是否是release版本</h3><p>public static boolean isDebugVersion(Context context) {<br>   try {<br>      ApplicationInfo info = context.getApplicationInfo();<br>      return (info.flags &amp; ApplicationInfo.FLAG_DEBUGGABLE) != 0;<br>   } catch (Exception e) {<br>      e.printStackTrace();<br>   }<br>   return false;<br>}</p>
+<h3 id="判断是否是release版本"><a href="#判断是否是release版本" class="headerlink" title="判断是否是release版本"></a>判断是否是release版本</h3><p>public static boolean isDebugVersion(Context context) {<br>   try {<br>      ApplicationInfo info = context.getApplicationInfo();<br>      return (info.flags &amp; ApplicationInfo.FLAG_DEBUGGABLE) != 0;<br>   } catch (Exception e) {<br>      e.printStackTrace();<br>   }<br>   return false;<br>}<br><img src="2019-08-07-08-49-59.png"></p>
 
       
     </div>
